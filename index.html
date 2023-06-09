@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Качмар Ігор</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3e71a;
+    padding: 0 20px;
+  }
+
+  header h1 {
+    font-size: 42px;
+    color: #d54848;
+    font-weight: 700;
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/4;
+    border: 5px solid white;
+    border-radius: 40px;
+  }
+
+  .food {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .food__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  .food__item h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .food__item p {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75); 
+border-radius: 10px;
+  }
+
+  footer {
+    margin-top: 30px;
+    border-top: 4px dashed #d54848;
+  padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer p {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .link {
+    padding-left: 8px;
+    font-size: 26px;
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+  }
+
+
+</style>
+</head>
+<body>
+<header>
+  <h1>Страви української кухні</h1>
+</header>
+<main class="container">
+<section class="row video">
+  <iframe src="https://www.youtube.com/embed/Ia18QT6DaHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+<section class="row food">
+  <div class="food__item">
+    <h3>Борщ</h3>
+    <img src="https://vartonews.com.ua/wp-content/uploads/2022/07/63_main.jpg" alt="borsch">
+    <p>Борщ - це не просто страва української національної кухні, це легенда. Приготування борщу - це якесь таїнство, а сам борщ для українців - одна з головних страв. Смачне навіть саме слово - борщ! Пропонуємо вам
+      цікаві рецепти борщу класичного, з грибами,
+      рибою, вушками, кролятиною</p>
+  </div>
+  <div class="food__item">
+    <h3>Вареники</h3>
+    <img src="https://klopotenko.com/wp-content/uploads/2022/03/podborka-varenykov_sitewebru.jpg?v=1657617481" alt="varenyky">
+    <p>В українській національній кухні найпоширенішою й найулюбленішою стравою є вареники. Готують їх із вареного тіста з різноманітними начинками. Але тільки в Україні ця культова їжа має стільки варіантів приготування тіста, відрізняється
+      багатоманітністю форм і видів начинок.</p>
+  </div>
+  <div class="food__item">
+    <h3>Пампухи</h3>
+    <img src="https://fayni-recepty.com.ua/wp-content/uploads/2022/01/pampukh-1024x683.jpg" alt="borsch">
+    <p>В Україні пампушки (пампухи, пончики) - це одна з давніх традиційних страв національної кухні. Пухкі, кругленькі, румʼяні, запашні, солоденькі... Пісні чи здобні, з начинкою чи без, солодкі чи навіть солоні... Сучасне різноманіття цієї смачної випічки справді
+      вражає!</p>
+  </div>
+</section>
+<footer> 
+  <p>©<a href="https://www.instagram.com/kechmech_/" target="_blank" class="link">Качмар, КН-209</a></p>
+</footer>
+</main>
+
+</body>
+</html>
